@@ -68,7 +68,7 @@ class Dog
     if !dog.empty?
       dog = self.find_by_id(dog[0][0])
     else
-      dog = self.create(name:name,album:album)
+      dog = self.create(name:name,breed:album)
     end
     dog
     # binding.pry
