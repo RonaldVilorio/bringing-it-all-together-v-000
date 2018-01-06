@@ -66,7 +66,7 @@ class Dog
     dog = DB[:conn].execute(sql,name,breed)
 
     if !dog.empty?
-      self.find_by_id(dog[0][0])
+      dog = self.find_by_id(dog[0][0])
     else
       dog = self.create(name:name,album:album)
     end
