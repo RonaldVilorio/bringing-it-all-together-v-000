@@ -2,7 +2,7 @@ class Dog
   attr_accessor :name,:breed,:id
 
   def initialize(name:,breed:)
-    attributes.each{|key,value| self.send("#{key}=",value)}
+    # attributes.each{|key,value| self.send("#{key}=",value)}
   end
 
   def self.create_table
