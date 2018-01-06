@@ -5,6 +5,7 @@ class Dog
     # attributes.each{|key,value| self.send("#{key}=",value)}
     @name = name
     @breed = breed
+    @id = id
   end
 
   def self.create_table
