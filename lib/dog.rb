@@ -67,7 +67,7 @@ class Dog
 
     if !dog.empty?
       data = dog[0]
-      
+    end
     binding.pry
 
 
