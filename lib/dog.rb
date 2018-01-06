@@ -70,6 +70,7 @@ class Dog
     else
       dog = self.create(name:name,album:album)
     end
+    dog
     binding.pry
 
 
