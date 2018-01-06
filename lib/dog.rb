@@ -71,9 +71,7 @@ class Dog
       dog = self.create(name:name,album:album)
     end
     dog
-    binding.pry
-
-
+    
   end
 
 
