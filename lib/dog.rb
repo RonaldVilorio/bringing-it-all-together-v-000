@@ -66,7 +66,8 @@ class Dog
     dog = DB[:conn].execute(sql,name,breed)
 
     if !dog.empty?
-      data = dog[0]
+      self.find_by_id(dog[0][0])
+      
     end
     binding.pry
 
