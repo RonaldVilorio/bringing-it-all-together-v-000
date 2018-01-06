@@ -3,7 +3,6 @@ class Dog
 
 
   def initialize(name:,breed:,id:nil)
-    # attributes.each{|key,value| self.send("#{key}=",value)}
     @name = name
     @breed = breed
     @id = id
