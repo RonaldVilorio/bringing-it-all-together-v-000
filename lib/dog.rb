@@ -1,7 +1,7 @@
 class Dog
   attr_accessor :name,:breed,:id
 
-  def initialize(name:,breed:,id:)
+  def initialize(name:,breed:,id)
     # attributes.each{|key,value| self.send("#{key}=",value)}
     @name = name
     @breed = breed
