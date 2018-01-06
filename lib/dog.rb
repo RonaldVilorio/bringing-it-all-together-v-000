@@ -21,7 +21,7 @@ class Dog
     DB[:conn].execute(sql)
   end
   def self.new_from_db(row)
-    new_dog = self.new
+    new_dog = self.new(row)
     new_dog.id = row[0]
     new_dog.name = row[1]
     new_dog.grade = row[2]
