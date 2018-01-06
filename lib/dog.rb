@@ -3,6 +3,8 @@ class Dog
 
   def initialize(name:,breed:)
     # attributes.each{|key,value| self.send("#{key}=",value)}
+    @name = name
+    @breed = breed
   end
 
   def self.create_table
