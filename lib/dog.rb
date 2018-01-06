@@ -51,7 +51,7 @@ class Dog
     end
   end
 
-  def self.create(hash)
+  def self.create(name:,album:)
     new_dog = self.new(hash)
     new_dog.save
   end
