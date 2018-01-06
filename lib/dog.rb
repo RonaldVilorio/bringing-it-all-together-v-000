@@ -4,9 +4,6 @@ class Dog
 
   def initialize(attributes)
     attributes.each{|key,value| self.send("#{key}=",value)}
-    @name = name
-    @breed = breed
-    binding.pry
   end
 
   def self.create_table
